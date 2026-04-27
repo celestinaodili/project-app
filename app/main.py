@@ -14,7 +14,7 @@ templates = Jinja2Templates(directory="app/templates")
 def get_app_config() -> dict[str, str]:
     return {
         "app_name": os.getenv("APP_NAME", "Cloud Lab Starter App"),
-        "intern_name": os.getenv("INTERN_NAME", "Replace Me"),
+        "intern_name": os.getenv("ENGINEER_NAME", "Replace Me"),
         "cloud_platform": os.getenv("CLOUD_PLATFORM", "Replace Me"),
         "environment": os.getenv("ENVIRONMENT", "dev"),
         "app_version": os.getenv("APP_VERSION", "v1.0.0"),

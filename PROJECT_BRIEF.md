@@ -1,12 +1,12 @@
 PROJECT\_BRIEF.md
 
-\# Project Brief — Lab 1 Starter Application
+\# Project Brief — Lab Starter Application
 
 \#\# Overview
 
-Build a simple starter application repository for a cloud and DevOps intern lab.
+Build a simple starter application repository for a cloud and DevOps lab.
 
-This repository will be given to interns as the starting point for Lab 1\. The purpose of the lab is \*\*not\*\* for them to build the application from scratch. The purpose is for them to:
+This repository will be the starting point for the project The purpose of the project is to:
 
 \- take an existing simple application  
 \- understand how it works  
@@ -14,20 +14,14 @@ This repository will be given to interns as the starting point for Lab 1\. The p
 \- containerize it  
 \- deploy it to the cloud using Infrastructure as Code
 
-The starter application should therefore be simple, clean, easy to understand, and easy to run locally.
+The starter application is  therefore a  simple, clean, easy to understand, and easy to run locally.
 
-The final repo should be suitable for two parallel cloud tracks:
 
-\- AWS Lab 1  
-\- Azure Lab 1
-
-The application itself should be cloud-neutral. The interns will adapt and deploy it differently depending on their cloud platform.
+The application itself should be cloud-neutral which can be adapted and deployed differently depending on  cloud platform.
 
 \---
 
-\#\# What this starter repo is for
-
-The interns will receive this repo and will be asked to do the following:
+\#\# What is expected from the Engineer
 
 \- clone the repo  
 \- run the application locally  
@@ -42,7 +36,7 @@ The interns will receive this repo and will be asked to do the following:
 \- push the container image to a registry  
 \- deploy it using IaC
 
-This means the repo must already provide:
+This means the repo has already provided:
 
 \- a working simple web application  
 \- a health endpoint  
@@ -62,7 +56,7 @@ The \`/\` route should return a simple but neat HTML page.
 The page should clearly display these fields:
 
 \- App Name  
-\- Intern Name  
+\-Engineer Name  
 \- Cloud Platform  
 \- Environment  
 \- Version  
@@ -71,7 +65,7 @@ The page should clearly display these fields:
 At starter state, the page can use placeholder values such as:
 
 \- App Name: Cloud Lab Starter App  
-\- Intern Name: Replace Me  
+\- Engineer Name: Replace Me  
 \- Cloud Platform: Replace Me  
 \- Environment: dev  
 \- Version: v1.0.0  
@@ -94,7 +88,7 @@ It should be simple and reliable.
 
 \#\# Technical direction
 
-Use a stack that is simple and easy for interns to understand.
+Use a stack that is simple and easy to understand.
 
 Recommended stack:  
 \- Python  
@@ -172,7 +166,7 @@ Support the following environment variables:
 
 * APP\_NAME
 
-* INTERN\_NAME
+* ENGINEER\_NAME
 
 * CLOUD\_PLATFORM
 
@@ -186,7 +180,7 @@ Default values can be:
 
 * APP\_NAME=Cloud Lab Starter App
 
-* INTERN\_NAME=Replace Me
+* ENGINEER\_NAME=Replace Me
 
 * CLOUD\_PLATFORM=Replace Me
 
@@ -266,7 +260,7 @@ Write a clean README that explains:
 
 * what interns are expected to modify
 
-The README should also clearly tell interns that they are expected to update the displayed values for:
+The README should also clearly tell Engineers that they are expected to update the displayed values for:
 
 * their name
 
@@ -284,7 +278,7 @@ Those belong to the lab instructions, not the starter app repo.
 
 ## **What interns should be able to modify easily**
 
-The project must make it obvious where interns will make their changes.
+The project makes it obvious where changes will be made.
 
 That means:
 
@@ -336,7 +330,7 @@ Avoid:
 
 * external APIs
 
-This is only for Lab 1\.
+This is only for iac-lab\.
 
 ---
 
@@ -366,7 +360,7 @@ Do not add:
 
 * cloud-specific deployment files
 
-This repository is only the starter application code that interns will later containerize and deploy.
+This repository is only the starter application code that will later be containerized and deployed.
 
 ---
 
@@ -414,11 +408,11 @@ The starter repo is successful if:
 
 * the README is clear
 
-* the repo is simple enough for interns to understand quickly
+* the repo is simple enough for quick understanding
 
 ## 
 
 Here is the repo link:  
-[https://github.com/woronmene/cognetiks-interns-lab1.git](https://github.com/woronmene/cognetiks-interns-lab1.git)
+[https://github.com/celestinaodili/project-app.git](https://github.com/celestinaodili/project-app.git)
 
 You should push the code here.

@@ -14,7 +14,7 @@ The homepage reads these values at runtime:
 | Variable | Default |
 | --- | --- |
 | `APP_NAME` | `Cloud Lab Starter App` |
-| `INTERN_NAME` | `Replace Me` |
+| `ENGINEER_NAME` | `Replace Me` |
 | `CLOUD_PLATFORM` | `Replace Me` |
 | `ENVIRONMENT` | `dev` |
 | `APP_VERSION` | `v1.0.0` |
@@ -62,7 +62,7 @@ These are the values you are expected to update for the lab, especially:
 
 ```bash
 APP_NAME="Cloud Lab Starter App" \
-INTERN_NAME="Ada Lovelace" \
+ENGINEER_NAME="Alice Wonderland" \
 CLOUD_PLATFORM="AWS" \
 ENVIRONMENT="dev" \
 APP_VERSION="v1.0.1" \
@@ -82,7 +82,7 @@ uvicorn app.main:app --reload
 
    ```bash
    docker run --rm -p 8000:8000 \
-     -e INTERN_NAME="Ada Lovelace" \
+     -e ENGINEER_NAME="Alice Wonderland" \
      -e CLOUD_PLATFORM="Azure" \
      lab1-starter-app
    ```
@@ -95,7 +95,7 @@ uvicorn app.main:app --reload
 ## Project Structure
 
 ```text
-lab-1/
+iac-lab/
   app/
     main.py
     templates/
@@ -107,11 +107,12 @@ lab-1/
   .dockerignore
   .gitignore
   README.md
+  PROJECT_BRIEF.md
 ```
 
 ## What You Should Modify
 
-For Lab 1, you should be able to make changes in obvious places:
+Make changes in obvious places:
 
 - set the environment variables to your own values
 - update the template only if you need a small UI change
