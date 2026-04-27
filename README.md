@@ -1,6 +1,6 @@
 # Lab 1 Starter App
 
-This repository contains a small FastAPI application for the Cloud and DevOps intern Lab 1 starter project. The app is intentionally simple so you can focus on understanding it, updating a few values, containerizing it, and deploying it with your lab instructions.
+This repository contains a small FastAPI application for the Cloud and DevOps starter project. The app is intentionally simple so you can focus on understanding it, updating a few values, containerizing it, and deploying it with your lab instructions.
 
 ## Routes
 
